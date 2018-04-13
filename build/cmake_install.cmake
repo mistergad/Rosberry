@@ -118,6 +118,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/ubuntu/catkin_ws/build/gtest/cmake_install.cmake")
   include("/home/ubuntu/catkin_ws/build/demos/fiducial_follow/cmake_install.cmake")
+  include("/home/ubuntu/catkin_ws/build/opencv_origin/cmake_install.cmake")
 
 endif()
 
