@@ -48,7 +48,10 @@ int main(int argc, char** argv)
 {
 	ros::init(argc, argv, "cam_test");
 	cam_test cam_object;
-
+	cout << CV_VERSION << endl;
+	cout << CV_MAJOR_VERSION << endl;
+	cout << CV_MINOR_VERSION << endl;
+	cout << CV_SUBMINOR_VERSION << endl;
 	ros::spin();
 	return 0;
 }
